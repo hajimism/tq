@@ -1,0 +1,20 @@
+{
+  "name": "tq",
+  "description": "Ask a TypeScript project about a symbol, and get back only what answers it.",
+  "license": "MIT",
+  "repository": "github:hajimism/tq",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "typecheck": "bun --bun tsc --noEmit -p ."
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "dependencies": {
+    "typescript": "5"
+  },
+  "bin": {
+    "tq": "tq.ts"
+  }
+}
